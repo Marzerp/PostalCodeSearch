@@ -78,10 +78,10 @@ The app is simple, responsive, and easy to set up locally — making it a great 
 ## Quick look at how Postal Code Search works
 
 - Example search by city (Morelia, Michoacán, MX)
-<p align="center"> <img src="docs/morelia.png" alt="Morelia" width="600"/> </p>
+<p align="center"> <img src="img/morelia.png" alt="Morelia" width="600"/> </p>
 
 - Example search by postal code (58350 postal code of a colony in Morelia)
-<p align="center"> <img src="docs/pc.png" alt="pc" width="600"/> </p>
+<p align="center"> <img src="img/pc.png" alt="pc" width="600"/> </p>
 
 ---
 ## Example Queries 
