@@ -12,7 +12,7 @@ Type part of a colony, municipality, or postal code and the app suggests the ful
 
 This project was created by Araceli Romero, a student of Information technologies in science(TICs) at [UNAM](https://www.unam.mx/), Mexico.
 
-Movie Explorer was developed as part of the Distributed Database course (Class of 2025).
+Postal Code Search was developed as part of the Distributed Database course (Class of 2025).
 
 Feel free to reach out with questions, feedback, or collaboration ideas to araceliromerozerpa@gmail.com
 
