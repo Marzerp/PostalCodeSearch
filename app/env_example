@@ -1,5 +1,6 @@
-DB_HOST=127.0.0.1 #localhost by defalut 
+DB_HOST=db
 DB_USER=user_example
 DB_PASS=password_example
 DB_NAME=db_name_example
+DB_PORT=3306
 
