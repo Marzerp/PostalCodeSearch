@@ -4,21 +4,13 @@ import mysql.connector
 
 app = Flask(__name__)
 
-CONFIG = {
-    'host': os.getenv('DB_HOST', '127.0.0.1'),
-    'user': os.getenv('DB_USER', 'flaskuser'),
-    'password': os.getenv('DB_PASS', 'flaskpass'),
-    'database': os.getenv('DB_NAME', 'cp'),
-    'charset': 'latin1',
-    'use_unicode': True
-}
-
 db_config = {
-    'host': 'localhost',
-    'database': 'codigos_postales	',            
+    'host': 'db',
+    'database': 'codigos_postales',            
     'user': 'flaskuser',
     'password': 'flaskpass',
-    'auth_plugin': 'mysql_native_password'
+    'auth_plugin': 'mysql_native_password',
+    'port': 3306, 
 }
 
 HTML = """
@@ -64,7 +56,6 @@ HTML = """
 
 
 def conn():
-#    return mysql.connector.connect(**CONFIG)
     return mysql.connector.connect(**db_config)
 
 @app.get('/')
