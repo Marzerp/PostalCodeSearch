@@ -52,26 +52,12 @@ The app is simple, responsive, and easy to set up locally — making it a great 
    git clone https://github.com/Marzerp/PostalCodeSearch.git
    cd PostalCodeSearch
    ```
-2. Create and activate a virtual environment
+2. Run the project
   ``` bash
-  python3 -m venv venv
-  source venv/bin/activate   # Linux / Mac
-  venv\Scripts\activate      # Windows
+  docker-compose up --build
   ```
 
-3. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Prepare database
-   - Follow "Script_mariadb.txt" for setup instructions
-   - Make your .env file using env_example as reference in the app/ directory
-   
-5. Run the app
-   ```bash
-   python app.py
-   ```
-6. Open your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000)
+3. Open your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
